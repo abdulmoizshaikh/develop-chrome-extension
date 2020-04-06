@@ -1,0 +1,21 @@
+{
+  // Required
+  "name": "Fullstack Backgrounds",
+  "version": "1.0",
+  "manifest_version": 2,
+
+  // Recommended
+  "description": "Because Fullstack should be everwhere!",
+  "icons": {
+    "128": "fullstackicon.png"
+  },
+
+  // Type of action: Browser, Page, or none
+  "browser_action": {
+    "default_title": "Always have the Fullstack team with you <3",
+    "default_popup": "popup.html"
+  },
+  // intent from app. what you will access from the user
+  "permissions": ["tabs", "http://*/*", "https://*/*"]
+  // "permissions": ["http://*/*", "https://*/*", "tabs"]
+}
